@@ -3,6 +3,7 @@
     "displayName": "256",
     "description": "Language support for the 256 esolang.",
     "version": "0.1.0",
+    "preview": true,
     "engines": {
         "vscode": "^1.47.0"
     },
