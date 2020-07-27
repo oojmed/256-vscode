@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "256",
+	"patterns": [
+		{
+			"include": "#ifs"
+		},
+		{
+			"include": "#command2"
+		},
+		{
+			"include": "#command5"
+		},
+		{
+			"include": "#command6"
+		}
+	],
+	"repository": {
+		"command2": {
+			"begin": "(2)",
+			"end": "(;|\\n*$)",
+			"beginCaptures": {
+				"0": { "name": "keyword.other" }
+			},
+			"name": "command2.256"
+		},
+		"command5": {
+			"begin": "(5)([^^;\n])([^^;\n]+)?",
+			"end": "(;|\\n*$)",
+			"beginCaptures": {
+				"1": { "name": "keyword.other" },
+				"3": { "name": "string" },
+				"2": { "name": "variable" }
+			},
+			"name": "command5.256"
+		},
+		"command6": {
+			"begin": "(6)([0-9]+)?",
+			"end": "(;|\\n*$)",
+			"beginCaptures": {
+				"1": { "name": "constant.numeric" },
+				"0": { "name": "keyword.control" }
+			},
+			"name": "command6.256"
+		},
+		"ifs": {
+			"begin": "\\^",
+			"end": "\\^",
+			"beginCaptures": {
+        "0": { "name": "punctuation.paren.open.256" }
+      },
+      "endCaptures": {
+        "0": { "name": "punctuation.paren.close.256" }
+			},
+			"name": "expression.group.256"
+		}
+	},
+	"scopeName": "source.256"
+}

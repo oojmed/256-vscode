@@ -1,0 +1,25 @@
+{
+    "name": "256",
+    "displayName": "256",
+    "description": "Language support for the 256 esolang.",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "256",
+            "aliases": ["256"],
+            "extensions": [".256"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "256",
+            "scopeName": "source.256",
+            "path": "./syntaxes/256.tmLanguage.json"
+        }]
+    }
+}
