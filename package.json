@@ -8,8 +8,27 @@
     "engines": {
         "vscode": "^1.47.0"
     },
+    "author": {
+        "name": "Oojmed",
+        "url": "https://oojmed.com"
+    },
+    "homepage": "https://github.com/oojmed/256-vscode#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oojmed/256-vscode"
+    },
+    "bugs": {
+        "url": "https://github.com/oojmed/256-vscode/issues"
+    },
     "categories": [
         "Programming Languages"
+    ],
+    "keywords": [
+        "vscode",
+        "language",
+        "syntax",
+        "esolang",
+        "256"
     ],
     "contributes": {
         "languages": [{
