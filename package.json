@@ -1,8 +1,8 @@
 {
     "name": "256",
     "displayName": "256",
-    "description": "Language support for the 256 esolang.",
-    "version": "0.1.0",
+    "description": "A VSCode extension featuring language support for the 256 esolang.",
+    "version": "0.1.1",
     "preview": true,
     "publisher": "Oojmed",
     "engines": {
@@ -17,6 +17,7 @@
         "type": "git",
         "url": "https://github.com/oojmed/256-vscode"
     },
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/oojmed/256-vscode/issues"
     },
