@@ -2,7 +2,7 @@
     "name": "256",
     "displayName": "256",
     "description": "A VSCode extension featuring language support for the 256 esolang.",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "preview": true,
     "publisher": "Oojmed",
     "engines": {
@@ -24,6 +24,11 @@
     "categories": [
         "Programming Languages"
     ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#242424",
+        "theme": "dark"
+    },
     "keywords": [
         "vscode",
         "language",
